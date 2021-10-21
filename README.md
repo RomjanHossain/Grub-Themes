@@ -20,83 +20,83 @@
 
 ###### Vimix
 
-#### ![Vimix](../grubthemes/screenshot/vimix.jpg)
+#### ![Vimix](screenshot/vimix.jpg)
 
 Tela
 
-![tela](../grubthemes/screenshot/tela.jpg)
+![tela](screenshot/tela.jpg)
 
 Fallout
 
-![fallout](../grubthemes/screenshot/fallout.gif)
+![fallout](screenshot/fallout.gif)
 
 CyberRe
 
-![cyberre](../grubthemes/screenshot/cyberre.png)
+![cyberre](screenshot/cyberre.png)
 
 DedSec
 
-![Dedsec](../grubthemes/screenshot/dedsec.png)
+![Dedsec](screenshot/dedsec.png)
 
 Sleek
 
-![Dedsec](../grubthemes/screenshot/sleek.png)
+![Dedsec](screenshot/sleek.png)
 
 Bigsur 
 
-![Dedsec](../grubthemes/screenshot/bigsur.png)
+![Dedsec](screenshot/bigsur.png)
 
 Atomic
 
-![atomic](../grubthemes/screenshot/atomic.gif)
+![atomic](screenshot/atomic.gif)
 
 Ichika, Itsuki, Miku, Nino and Yotsuba
 
-| ![](../grubthemes/screenshot/ichika.gif) | ![](../grubthemes/screenshot/itsuki.gif) | ![](../grubthemes/screenshot/miku.gif)    |
-| ---------------------------------------- | ---------------------------------------- | ----------------------------------------- |
-| ![](../grubthemes/screenshot/nino.gif)   |                                          | ![](../grubthemes/screenshot/yotsuba.gif) |
+| ![](screenshot/ichika.gif) | ![](screenshot/itsuki.gif) | ![](screenshot/miku.gif)    |
+| -------------------------- | -------------------------- | --------------------------- |
+| ![](screenshot/nino.gif)   |                            | ![](screenshot/yotsuba.gif) |
 
 polylight
 
-![](../grubthemes/screenshot/polylight.gif)
+![](screenshot/polylight.gif)
 
 Arch, Ubuntu, Debian, Kali, Manjaro, Fedora
 
-| ![](../grubthemes/screenshot/arch.jpg) | ![](../grubthemes/screenshot/ubuntu.jpg)  | ![](../grubthemes/screenshot/debian.jpg) |
-| -------------------------------------- | ----------------------------------------- | ---------------------------------------- |
-| ![](../grubthemes/screenshot/kali.jpg) | ![](../grubthemes/screenshot/manjaro.jpg) | ![](../grubthemes/screenshot/fedora.jpg) |
+| ![](screenshot/arch.jpg) | ![](screenshot/ubuntu.jpg)  | ![](screenshot/debian.jpg) |
+| ------------------------ | --------------------------- | -------------------------- |
+| ![](screenshot/kali.jpg) | ![](screenshot/manjaro.jpg) | ![](screenshot/fedora.jpg) |
 
 Cyberpunk
 
-![](../grubthemes/screenshot/cyberpunk.png)
+![](screenshot/cyberpunk.png)
 
 Cyberpunk2
 
-![](../grubthemes/screenshot/cyberpunk2.png)
+![](screenshot/cyberpunk2.png)
 
 Darkmatter
 
-![](../grubthemes/screenshot/darkmatter.png)
+![](screenshot/darkmatter.png)
 
 Deadpool 
 
-![](../grubthemes/screenshot/deadpool.png)
+![](screenshot/deadpool.png)
 
 Monterey
 
-![](../grubthemes/screenshot/monte.png)
+![](screenshot/monte.png)
 
 Shodan
 
-![](../grubthemes/screenshot/shodan.png)
+![](screenshot/shodan.png)
 
 Virtual Future
 
-![](../grubthemes/screenshot/virtual.png)
+![](screenshot/virtual.png)
 
 WhiteSur
 
-![](../grubthemes/screenshot/whitesur.jpg)
+![](screenshot/whitesur.jpg)
 
 
 
