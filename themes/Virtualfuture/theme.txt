@@ -1,0 +1,50 @@
+title-text: "Boot menu"
+title-color: "#15f4ee"
+title-font: "Terminus (TTF) Bold 20"
+desktop-image: "background.png"
+terminal-font: "Terminus (TTF) Bold 18"
+terminal-left: "0%"
+terminal-top: "0%"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+    menu_pixmap_style = "boot_menu_*.png"
+    left = 25%
+    width = 50%
+    top = 30%
+    height = 40%
+    item_font = "Terminus (TTF) Bold 20"
+    item_color = "#09737a"
+    selected_item_font = "Terminus (TTF) Bold 20"
+    selected_item_color = "#15f4ee"
+    item_height = 33
+    item_padding = 20
+    item_spacing = 5
+    scrollbar_width = 10
+    scrollbar_thumb = "slider_*.png"
+}
+
++ label {
+    left = 50%-300
+    top = 95%
+    height = 25
+    width = 600  
+    font = "Terminus (TTF) Bold 20"
+    color = "#15f4ee"
+    align = "center"  
+    text = "@KEYMAP_SHORT@"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 25%
+    width = 50%
+    top = 75%
+    height = 20
+    text = "%d seconds left"
+    text_color = "#15f4ee"
+    font = "Terminus (TTF) Bold 20"
+    bar_style = "progress_bar_*.png"
+    highlight_style = "progress_highlight_*.png"
+}
