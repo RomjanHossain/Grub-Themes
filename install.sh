@@ -38,11 +38,17 @@ function check_root() {
 
 function select_theme() {
   # selecting Themes
-    themes=('Arch' 'Atomic' 'BigSur' 'Cyberpunk' 'Cyberpunk2' 'CyberRe' 'Darkmatter' 'Deadpool' 'Debian' 'DedSec' 'fallout' 'Fedora' 'Ichika' 'Itsuki' 'Kali' 'Manjaro' 'Miku' 'Monterey' 'Nino' 'Polylight' 'Shodan' 'Sleek' 'Tela' 'Ubuntu' 'Vimix' 'Virtualfuture' 'whitesur' 'Yotsuba' 'Quit')
+    themes=('Amogus' 'Arcade' 'Arch' 'Atomic' 'BigSur' 'Cyberpunk' 'Cyberpunk2' 'CyberRe' 'Darkmatter' 'Deadpool' 'DedSec' 'fallout' 'Ichika' 'Itsuki' 'Kali' 'Mario' 'Miku' 'Monterey' 'Nino' 'Polylight' 'Sekiro' 'Shodan' 'Sleek' 'Tela' 'Vimix' 'Virtualfuture' 'Virtuaverse' 'whitesur' 'Yotsuba' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
         case "${THEME_NAME}" in
+          'Amogus')
+            splash 'Installing AmongUS Theme'
+            break;;
+          'Arcade')
+            splash 'Installing Arcade Theme'
+            break;;
           'Arch')
             splash 'Installing Arch Theme'
             break;;
@@ -67,19 +73,13 @@ function select_theme() {
           'Deadpool')
                 splash 'Installing Deadpool Theme'
                 break;;
-          'Debian')
-                splash 'Installing Debian Theme'
-                break;;
           'DedSec')
                 splash 'installing DedSec Theme' 
                 break;;
           'fallout')
                 splash 'Installing fallout Theme'
                 break;;
-          'Fedora')
-                splash 'Installing Fedora Theme'
-                break;;
-
+          
           'Ichika')
                 splash 'installing Ichika Theme' 
                 break;;
@@ -87,13 +87,12 @@ function select_theme() {
                 splash 'installing Itsuki Theme' 
                 break;;
           'Kali')
-                splash 'installing Itsuki Theme' 
+                splash 'installing Kali Theme' 
                 break;;
-          'Manjaro')
-                splash 'installing Manjaro Theme' 
+          'Mario')
+                splash 'installing Mario Theme' 
                 break;;
-
-          'Miku')
+         'Miku')
                 splash 'installing Miku Theme' 
                 break;;
           'Monterey')
@@ -105,6 +104,9 @@ function select_theme() {
           'Polylight')
                 splash 'installing Polylight Theme' 
                 break;;
+          'Sekiro')
+                splash 'Installing Sekiro Theme'
+                break;;
           'Shodan')
                 splash 'Installing Shodan Theme'
                 break;;
@@ -114,14 +116,14 @@ function select_theme() {
           'Tela')
                 splash 'Installing Tela Theme'
                 break;;
-          'Ubuntu')
-                splash 'Installing Ubuntu Theme'
-                break;;
-           'Vimix')
+          'Vimix')
                 splash 'Installing Vimix Theme'
                 break;;
            'Virtualfuture')
                 splash 'Installing Virtualfuture Theme'
+                break;;
+          'Virtuaverse')
+                splash 'installing Virtuaverse Theme' 
                 break;;
           'whitesur')
                 splash 'installing whitesur Theme' 

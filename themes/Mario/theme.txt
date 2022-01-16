@@ -1,0 +1,44 @@
+# GRUB2 Mario theme
+
+# Global Property
+title-text: ""
+desktop-image: "background.png"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "1"
+terminal-font: "Super Mario Land (Game Boy) Regular 24"
+
+# Boot menu
++ boot_menu {
+
+  left = 29%
+  top = 33%
+  width = 550
+  height = 400
+  item_font = "Super Mario Land (Game Boy) Regular 24"
+  #item_font = "Mario64 Regular 32"
+  item_color = "#212121"
+  selected_item_color = "#49276b"
+  item_spacing = 10 
+  item_height = 40
+  icon_width = 0
+  item_icon_space = 0
+}
+
+# Autoboot Countdown
++ progress_bar {
+  left = 0%
+  top = 55%
+  width = 0
+  height = 0
+  id = "__timeout__"
+  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+  text_color = #ffffff
+  bar_style = "*"
+  hilight_style = "*"
+  font = "Super Mario Land (Game Boy) Regular 48"
+  #font = "Mario64 Regular 32"
+}
