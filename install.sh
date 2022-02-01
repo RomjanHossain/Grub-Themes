@@ -38,7 +38,7 @@ function check_root() {
 
 function select_theme() {
   # selecting Themes
-    themes=('Amogus' 'Arcade' 'Arch' 'Atomic' 'BigSur' 'Cyberpunk' 'Cyberpunk2' 'CyberRe' 'Darkmatter' 'Deadpool' 'DedSec' 'fallout' 'Ichika' 'Itsuki' 'Kali' 'Mario' 'Miku' 'Monterey' 'Nino' 'Polylight' 'Sekiro' 'Shodan' 'Sleek' 'Tela' 'Vimix' 'Virtualfuture' 'Virtuaverse' 'whitesur' 'Yotsuba' 'Quit')
+    themes=('Amogus' 'Arcade' 'Arch' 'Atomic' 'BigSur' 'Cyberpunk' 'Cyberpunk2' 'CyberRe' 'Darkmatter' 'Deadpool' 'DedSec' 'fallout' 'Ichika' 'Itsuki' 'Kali' 'Mario' 'Miku' 'Monterey' 'Nino' 'Polylight' 'Sekiro' 'Shodan' 'Sleek' 'Tela' 'Vimix' 'Virtualfuture' 'whitesur' 'Yotsuba' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
@@ -121,9 +121,6 @@ function select_theme() {
                 break;;
            'Virtualfuture')
                 splash 'Installing Virtualfuture Theme'
-                break;;
-          'Virtuaverse')
-                splash 'installing Virtuaverse Theme' 
                 break;;
           'whitesur')
                 splash 'installing whitesur Theme' 
